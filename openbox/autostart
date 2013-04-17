@@ -1,0 +1,66 @@
+# This shell script is run before Openbox launches.
+# Environment variables set here are passed to the Openbox session.
+
+#=================================================================================
+# Disabled stuff
+#/usr/bin/gnome-keyring-daemon --start --components=ssh &
+#system-config-printer-applet &
+#ln -s /var/run/mysqld/mysqld.sock /tmp/mysql.sock &
+#pytyle2 &
+#nm-applet &
+#gnome-power-manager &
+#bluetooth-applet &
+#(sleep 100 && dropbox start -i) & # Launch dropbo when system is loaded and internet is around.
+#(sleep 100 && /bin/sh -c '[ -d "$HOME/Ubuntu One" ] && ubuntuone-launch') & # Ubuntu one connect
+
+# Preload stuff for KDE apps
+#if which start_kdeinit >/dev/null; then
+#  LD_BIND_NOW=true start_kdeinit --new-startup +kcminit_startup &
+#fi
+
+# Run XDG autostart things.  By default don't run anything desktop-specific
+# See xdg-autostart --help more info
+DESKTOP_ENV="OPENBOX"
+#if which /usr/lib/openbox/openbox-xdg-autostart >/dev/null; then
+#  /usr/lib/openbox/openbox-xdg-autostart $DESKTOP_ENV
+#fi
+#=================================================================================
+
+# D-bus
+if which dbus-launch >/dev/null && test -z "$DBUS_SESSION_BUS_ADDRESS"; then
+   eval `dbus-launch --sh-syntax --exit-with-session`
+   eval `ssh-agent`
+fi
+
+# Make GTK apps look and behave how they were set up in the gnome config tools
+if which gnome-settings-daemon >/dev/null; then
+  gnome-settings-daemon &
+# Make GTK apps look and behave how they were set up in the XFCE config tools
+#elif which xfce-mcs-manager >/dev/null; then
+#  xfce-mcs-manager n &
+fi
+
+# Composite manager, pick which you prefer
+xcompmgr &
+#compton &
+
+# Set a background color
+xsetroot -solid "#202020"
+
+thunar --daemon &
+update-notifier &
+parcellite &
+guake &
+volumeicon &
+xscreensaver -no-splash &
+(sleep 3 && nitrogen --restore)
+
+(sleep 1 && docky) &
+(sleep 1 && synapse -s) &
+(sleep 1 && tint2) &
+
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+xpad &
+
+#conky &

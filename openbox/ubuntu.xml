@@ -1,0 +1,309 @@
+<openbox_pipe_menu>
+<menu id="xdg-menu-Accessories" label="Accessories">
+<item label="Archive Manager">
+<action name="Execute"><execute>file-roller   </execute></action>
+</item>
+<item label="Calculator">
+<action name="Execute"><execute>gnome-calculator</execute></action>
+</item>
+<item label="Character Map">
+<action name="Execute"><execute>gucharmap</execute></action>
+</item>
+<item label="Contacts">
+<action name="Execute"><execute>gnome-contacts</execute></action>
+</item>
+<item label="Disks">
+<action name="Execute"><execute>gnome-disks</execute></action>
+</item>
+<item label="Docky">
+<action name="Execute"><execute>docky</execute></action>
+</item>
+<item label="File Manager PCManFM">
+<action name="Execute"><execute>pcmanfm   </execute></action>
+</item>
+<item label="Files">
+<action name="Execute"><execute>nautilus --new-window   </execute></action>
+</item>
+<item label="Font Viewer">
+<action name="Execute"><execute>gnome-font-viewer   </execute></action>
+</item>
+<item label="Help">
+<action name="Execute"><execute>yelp   </execute></action>
+</item>
+<item label="Mousepad">
+<action name="Execute"><execute>mousepad   </execute></action>
+</item>
+<item label="Parcellite">
+<action name="Execute"><execute>parcellite</execute></action>
+</item>
+<item label="Screenshot">
+<action name="Execute"><execute>gnome-screenshot --interactive</execute></action>
+</item>
+<item label="Synapse">
+<action name="Execute"><execute>synapse</execute></action>
+</item>
+<item label="Terminal">
+<action name="Execute"><execute>gnome-terminal</execute></action>
+</item>
+<item label="VirtualBox">
+<action name="Execute"><execute>VirtualBox   </execute></action>
+</item>
+<item label="gedit">
+<action name="Execute"><execute>gedit   </execute></action>
+</item>
+</menu>
+<menu id="xdg-menu-Games" label="Games">
+<item label="AisleRiot Solitaire">
+<action name="Execute"><execute>/usr/games/sol</execute></action>
+</item>
+<item label="Mahjongg">
+<action name="Execute"><execute>gnome-mahjongg</execute></action>
+</item>
+<item label="Mines">
+<action name="Execute"><execute>gnome-mines</execute></action>
+</item>
+<item label="Sudoku">
+<action name="Execute"><execute>gnome-sudoku</execute></action>
+</item>
+</menu>
+<menu id="xdg-menu-Graphics" label="Graphics">
+<item label="Atril Document Viewer">
+<action name="Execute"><execute>atril   </execute></action>
+</item>
+<item label="Document Viewer">
+<action name="Execute"><execute>evince   </execute></action>
+</item>
+<item label="GIMP Image Editor">
+<action name="Execute"><execute>gimp-2.8   </execute></action>
+</item>
+<item label="Image Viewer">
+<action name="Execute"><execute>eog   </execute></action>
+</item>
+<item label="ImageMagick (display)">
+<action name="Execute"><execute>/usr/bin/display.im6   </execute></action>
+</item>
+<item label="LibreOffice Draw">
+<action name="Execute"><execute>libreoffice --draw   </execute></action>
+</item>
+<item label="Shotwell">
+<action name="Execute"><execute>shotwell   </execute></action>
+</item>
+<item label="Simple Scan">
+<action name="Execute"><execute>simple-scan</execute></action>
+</item>
+</menu>
+<menu id="xdg-menu-Internet" label="Internet">
+<item label="Desktop Sharing">
+<action name="Execute"><execute>vino-preferences</execute></action>
+</item>
+<item label="Empathy">
+<action name="Execute"><execute>empathy</execute></action>
+</item>
+<item label="Firefox Web Browser">
+<action name="Execute"><execute>firefox   </execute></action>
+</item>
+<item label="Google Chrome">
+<action name="Execute"><execute>/opt/google/chrome/google-chrome   </execute></action>
+</item>
+<item label="Remmina">
+<action name="Execute"><execute>remmina</execute></action>
+</item>
+<item label="Skype">
+<action name="Execute"><execute>skype   </execute></action>
+</item>
+<item label="Thunderbird Mail">
+<action name="Execute"><execute>thunderbird   </execute></action>
+</item>
+<item label="Transmission">
+<action name="Execute"><execute>transmission-gtk   </execute></action>
+</item>
+</menu>
+<menu id="xdg-menu-Office" label="Office">
+<item label="Document Viewer">
+<action name="Execute"><execute>evince   </execute></action>
+</item>
+<item label="LibreOffice">
+<action name="Execute"><execute>libreoffice   </execute></action>
+</item>
+<item label="LibreOffice Calc">
+<action name="Execute"><execute>libreoffice --calc   </execute></action>
+</item>
+<item label="LibreOffice Draw">
+<action name="Execute"><execute>libreoffice --draw   </execute></action>
+</item>
+<item label="LibreOffice Impress">
+<action name="Execute"><execute>libreoffice --impress   </execute></action>
+</item>
+<item label="LibreOffice Writer">
+<action name="Execute"><execute>libreoffice --writer   </execute></action>
+</item>
+</menu>
+<menu id="xdg-menu-Other" label="Other">
+<item label="Amazon">
+<action name="Execute"><execute>unity-webapps-runner --amazon</execute></action>
+</item>
+<item label="Ubuntu One Music">
+<action name="Execute"><execute>unity-webapps-runner --homepage="https://one.ubuntu.com/music-store/"</execute></action>
+</item>
+<item label="i3">
+<action name="Execute"><execute>i3</execute></action>
+</item>
+</menu>
+<menu id="xdg-menu-Programming" label="Programming">
+<item label="Aptana Studio 3">
+<action name="Execute"><execute>/opt/aptana/AptanaStudio3</execute></action>
+</item>
+<item label="MySQL Workbench">
+<action name="Execute"><execute>/usr/lib/mysql-workbench/bin/mysql-workbench</execute></action>
+</item>
+<item label="pgAdmin III">
+<action name="Execute"><execute>pgadmin3</execute></action>
+</item>
+</menu>
+<menu id="xdg-menu-Sound &amp; Video" label="Sound &amp; Video">
+<item label="Brasero">
+<action name="Execute"><execute>brasero   </execute></action>
+</item>
+<item label="Promoe">
+<action name="Execute"><execute>promoe</execute></action>
+</item>
+<item label="Rhythmbox">
+<action name="Execute"><execute>rhythmbox   </execute></action>
+</item>
+<item label="Videos">
+<action name="Execute"><execute>totem   </execute></action>
+</item>
+</menu>
+<menu id="xdg-menu-System Tools" label="System Tools">
+<menu id="xdg-menu-Administration" label="Administration">
+<item label="Software Updater">
+<action name="Execute"><execute>/usr/bin/update-manager</execute></action>
+</item>
+<item label="Startup Disk Creator">
+<action name="Execute"><execute>usb-creator-gtk</execute></action>
+</item>
+<item label="System Testing">
+<action name="Execute"><execute>/usr/bin/checkbox-qt</execute></action>
+</item>
+<item label="Ubuntu Software Center">
+<action name="Execute"><execute>/usr/bin/software-center   </execute></action>
+</item>
+<item label="xdiagnose">
+<action name="Execute"><execute>pkexec xdiagnose</execute></action>
+</item>
+</menu>
+<menu id="xdg-menu-Preferences" label="Preferences">
+<item label="Desktop Sharing">
+<action name="Execute"><execute>vino-preferences</execute></action>
+</item>
+<item label="Disks">
+<action name="Execute"><execute>gnome-disks</execute></action>
+</item>
+<item label="File Manager">
+<action name="Execute"><execute>thunar-settings</execute></action>
+</item>
+<item label="Guake Preferences">
+<action name="Execute"><execute>guake-prefs</execute></action>
+</item>
+<item label="Input Method">
+<action name="Execute"><execute>im-config</execute></action>
+</item>
+<item label="Keyboard Input Methods">
+<action name="Execute"><execute>ibus-setup</execute></action>
+</item>
+<item label="Network Connections">
+<action name="Execute"><execute>nm-connection-editor</execute></action>
+</item>
+<item label="Onboard Settings">
+<action name="Execute"><execute>onboard-settings</execute></action>
+</item>
+<item label="Online Accounts">
+<action name="Execute"><execute>credentials-preferences</execute></action>
+</item>
+<item label="OpenJDK Java 7 Policy Tool">
+<action name="Execute"><execute>/usr/bin/policytool</execute></action>
+</item>
+<item label="Openbox Configuration Manager">
+<action name="Execute"><execute>obconf   </execute></action>
+</item>
+<item label="Passwords and Keys">
+<action name="Execute"><execute>/usr/bin/seahorse</execute></action>
+</item>
+<item label="Personal File Sharing">
+<action name="Execute"><execute>gnome-file-share-properties</execute></action>
+</item>
+<item label="Removable Drives and Media">
+<action name="Execute"><execute>thunar-volman-settings</execute></action>
+</item>
+<item label="Screensaver">
+<action name="Execute"><execute>xscreensaver-demo</execute></action>
+</item>
+<item label="Software &amp; Updates">
+<action name="Execute"><execute>software-properties-gtk</execute></action>
+</item>
+<item label="Startup Applications">
+<action name="Execute"><execute>gnome-session-properties</execute></action>
+</item>
+<item label="Tweak Tool">
+<action name="Execute"><execute>gnome-tweak-tool</execute></action>
+</item>
+<item label="Ubuntu One">
+<action name="Execute"><execute>ubuntuone-control-panel-qt</execute></action>
+</item>
+</menu>
+<item label="Bulk Rename">
+<action name="Execute"><execute>/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename   </execute></action>
+</item>
+<item label="Disk Usage Analyzer">
+<action name="Execute"><execute>baobab</execute></action>
+</item>
+<item label="Guake Terminal">
+<action name="Execute"><execute>guake</execute></action>
+</item>
+<item label="Htop">
+<action name="Execute"><execute>htop</execute></action>
+</item>
+<item label="IBus">
+<action name="Execute"><execute>ibus-daemon --xim</execute></action>
+</item>
+<item label="Power Statistics">
+<action name="Execute"><execute>gnome-power-statistics</execute></action>
+</item>
+<item label="System Log">
+<action name="Execute"><execute>gnome-system-log</execute></action>
+</item>
+<item label="System Monitor">
+<action name="Execute"><execute>gnome-system-monitor</execute></action>
+</item>
+<item label="System Settings">
+<action name="Execute"><execute>gnome-control-center --overview</execute></action>
+</item>
+<item label="Thunar File Manager">
+<action name="Execute"><execute>thunar   </execute></action>
+</item>
+<item label="UXTerm">
+<action name="Execute"><execute>uxterm</execute></action>
+</item>
+<item label="XSensors">
+<action name="Execute"><execute>/usr/bin/xsensors</execute></action>
+</item>
+<item label="XTerm">
+<action name="Execute"><execute>xterm</execute></action>
+</item>
+<item label="dconf Editor">
+<action name="Execute"><execute>dconf-editor</execute></action>
+</item>
+</menu>
+<menu id="xdg-menu-Universal Access" label="Universal Access">
+<item label="Onboard">
+<action name="Execute"><execute>onboard</execute></action>
+</item>
+<item label="Orca">
+<action name="Execute"><execute>orca --replace</execute></action>
+</item>
+</menu>
+<separator /> 
+<item label="Ubuntu Software Center">
+<action name="Execute"><execute>/usr/bin/software-center   </execute></action>
+</item>
+</openbox_pipe_menu>
