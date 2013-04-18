@@ -40,6 +40,9 @@ if which gnome-settings-daemon >/dev/null; then
 #  xfce-mcs-manager n &
 fi
 
+# Generate dynamic Appz menu
+openbox-xdgmenu /etc/xdg/menus/applications.menu > .config/openbox/ubuntu.xml &
+
 # Composite manager, pick which you prefer
 xcompmgr &
 #compton &
@@ -63,4 +66,4 @@ xscreensaver -no-splash &
 
 xpad &
 
-#conky &
+conky &

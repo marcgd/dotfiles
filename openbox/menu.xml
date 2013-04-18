@@ -5,10 +5,14 @@
         xsi:schemaLocation="http://openbox.org/
                 file:///usr/share/openbox/menu.xsd">
 
+<menu id="appz" label="Apps" execute="cat ~/.config/openbox/ubuntu.xml" />
+<menu id="randr-menu" label="XRandr" execute="~/.config/openbox/ob-randr.py" />
 <menu id="root-menu" label="Openbox 3">
-  <item label="Terminal emulator">
+  <item label="Terminal">
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
   </item>
+  <menu id="appz" />
+  <menu id="randr-menu" />
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="/Debian" />
   <separator />

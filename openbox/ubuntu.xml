@@ -36,6 +36,9 @@
 <item label="Parcellite">
 <action name="Execute"><execute>parcellite</execute></action>
 </item>
+<item label="Screen Ruler">
+<action name="Execute"><execute>screenruler</execute></action>
+</item>
 <item label="Screenshot">
 <action name="Execute"><execute>gnome-screenshot --interactive</execute></action>
 </item>
@@ -48,8 +51,14 @@
 <item label="VirtualBox">
 <action name="Execute"><execute>VirtualBox   </execute></action>
 </item>
+<item label="Xpad">
+<action name="Execute"><execute>xpad</execute></action>
+</item>
 <item label="gedit">
 <action name="Execute"><execute>gedit   </execute></action>
+</item>
+<item label="pyRenamer">
+<action name="Execute"><execute>/usr/bin/pyrenamer</execute></action>
 </item>
 </menu>
 <menu id="xdg-menu-Games" label="Games">
@@ -87,9 +96,6 @@
 </item>
 <item label="Shotwell">
 <action name="Execute"><execute>shotwell   </execute></action>
-</item>
-<item label="Simple Scan">
-<action name="Execute"><execute>simple-scan</execute></action>
 </item>
 </menu>
 <menu id="xdg-menu-Internet" label="Internet">
@@ -182,6 +188,9 @@
 <item label="Startup Disk Creator">
 <action name="Execute"><execute>usb-creator-gtk</execute></action>
 </item>
+<item label="Synaptic Package Manager">
+<action name="Execute"><execute>synaptic-pkexec</execute></action>
+</item>
 <item label="System Testing">
 <action name="Execute"><execute>/usr/bin/checkbox-qt</execute></action>
 </item>
@@ -254,6 +263,9 @@
 <item label="Bulk Rename">
 <action name="Execute"><execute>/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename   </execute></action>
 </item>
+<item label="Configuration Editor">
+<action name="Execute"><execute>gconf-editor</execute></action>
+</item>
 <item label="Disk Usage Analyzer">
 <action name="Execute"><execute>baobab</execute></action>
 </item>
@@ -265,6 +277,9 @@
 </item>
 <item label="IBus">
 <action name="Execute"><execute>ibus-daemon --xim</execute></action>
+</item>
+<item label="Midnight Commander">
+<action name="Execute"><execute>mc</execute></action>
 </item>
 <item label="Power Statistics">
 <action name="Execute"><execute>gnome-power-statistics</execute></action>
