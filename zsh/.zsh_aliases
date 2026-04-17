@@ -1,0 +1,39 @@
+# stuff that was on omz
+-() { cd - }
+alias _='sudo '
+alias t='tail -f'
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+alias grep='grep --color=auto'
+
+# more omz: Command line head / tail shortcuts
+alias -g H='| head'
+alias -g T='| tail'
+alias -g G='| grep'
+alias -g L="| less"
+alias -g M="| most"
+alias -g LL="2>&1 | less"
+alias -g CA="2>&1 | cat -A"
+alias -g NE="2> /dev/null"
+alias -g NUL="> /dev/null 2>&1"
+alias -g P="2>&1| pygmentize -l pytb"
+
+# docker
+alias de='docker exec -it "$@"'
+alias drestart='docker restart "$@"'
+
+# tools
+alias rndmsg='curl -s https://whatthecommit.com/index.txt'
+alias ping='sudo ping'
+alias rnd='openssl rand -base64 48'
+alias lg='lazygit'
+alias myip='curl ipinfo.io'
+alias infoip='curl "https://ipinfo.io/widget/demo/$1" -H "referer: https://ipinfo.io/" --compressed'
+alias qr='qrencode -m 2 -t utf8 <<< "$1"'
+alias httpserver='python3 -m http.server 8066'
+
+# visual copy using rsync
+alias vcp2='rsync -ah --progress "$@"'
+alias vcp='rsync -ah --info=progress2 --no-inc-recursive "$@"'
+
